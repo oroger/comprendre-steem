@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>{{ .Title }}</h1>
+         {{ .Content }}
+         {{ with .Site.Params.email }}
+         <!--h4>Drop me a line, maybe?</h4-->
+         <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
+           <div class="controls">
+            
+            <input type="hidden" name="_subject" value="Comprendre-Steem.Fr : Sousmission d'article!" />
+            <input type="hidden" name="_language" value="fr" />
+            <input type="hidden" name="_next" value="http://www.comprendre-steem.fr/contact/merci" />
+
+             <div class="form-group">
+               <label for="username">Nom d'utilisateur</label>
+               <input type="text" name="username" id="username" required="required" class="form-control" value="@" pattern="@[0-9A-Za-z-]{3,}">
+             </div>
+             <div class="form-group">
+               <label for="url">URL de l'article</label>
+               <input type="url" name="url" id="url" required="required" class="form-control" value="https://steemit.com/">
+             </div>
+             <div class="form-group">
+               <label for="picture">URL de l'image (optionel)</label>
+               <input type="url" name="picture" id="picture" class="form-control" value="">
+             </div>
+             <div class="form-group">
+               <label for="message">En quoi cet article vous semble t-il utile ?</label>
+               <textarea rows="4" name="message" id="message" class="form-control"></textarea>
+             </div>
+             <div>
+               <input type="submit" value="Soumettre" class="btn btn-ghost">
+             </div>
+           </div>
+         </form>
+         {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
