@@ -118,6 +118,7 @@ Si vous effectuez vos messages trop longtemps, les lecteurs risquent de perdre l
 Dans les 5 tags accordes par poste il est recommandé d'utiliser des tags spécifiques pour vous aider à rejoindre le public qui parle votre langue.
 
 Les groupes spécifiques à la langue comprennent: 
+
 * Chinois = cn 
 * Allemand = deutsch 
 * Espagnol = espagnol 
