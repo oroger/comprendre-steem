@@ -8,5 +8,7 @@ weight = 7
 url = "/outils"
 +++
 
-L'écosystème Steem grandi très rapidement. Certaines outils vous donnent des informations et des fonctionalités impossible à trouver ailleurs.
+L'écosystème Steem grandi très rapidement.  
+
+Certains outils vous donnent des informations et des fonctionalités impossible à trouver ailleurs.
 <!--more-->

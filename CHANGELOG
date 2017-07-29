@@ -1,0 +1,32 @@
+# Changelog
+Tous les changements sur ce projet seront documenté dans ce fichier.
+
+## [Unreleased]
+
+## 2017-07-30
+
+### Ajouts
+- Section "Plateforme d'échange"
+- Section "Bots"
+- Section "Ecosystème"
+- 1 tutoriel Mise en forme par @becometheartist
+- 5 tutoriels en vidéos sur Bittrex par @cryptobref
+- 2 vidéos Comprendre-Steem par @roxane
+- 3 tutoriels Bots par @zonguin
+- 2 tutoriels Rédaction par @corsica
+- 1 vidéo Ecosystème sur Busy.org par @roxane
+- 7 nouveaux Outils :
+	- Steem Stats par @jesta
+	- SteeMVP par @roelandp
+	- Steem Followers par @shaunmza
+	- Steem Dead Followers par @mynameisbrian
+	- Steem Press par @voorash
+	- Steem Activity par @jga
+	- Viewly (alpha)
+
+### Changements
+- Un lien vers une page externe au site s'ouvrira maintenant dans une nouvel onglet
+- 
+
+### Suppressions
+-
