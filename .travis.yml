@@ -8,4 +8,4 @@ install:
 - rm -rf public || exit 0
 script:
 - "/snap/bin/hugo"
-after_success: find public/ -exec curl --ftp-create-dirs -T {} -u user:pass ftp://comprendre-steem.fr/ \;
+after_success: find public/ -exec curl --ftp-create-dirs -T {} -u $FTP_USER:$FTP_PASSWORD ftp://comprendre-steem.fr/ \;
