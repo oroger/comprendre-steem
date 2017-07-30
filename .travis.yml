@@ -1,0 +1,10 @@
+# Install Hugo. See https://docs.travis-ci.com/user/installing-dependencies/
+# Clean and don't fail
+install:
+  - sudo apt-get --yes install snapd
+  - sudo snap install hugo
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - /snap/bin/hugo
