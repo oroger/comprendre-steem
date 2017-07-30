@@ -1,0 +1,15 @@
+env:
+  global:
+  - secure: JXvrUCInJnEq+HI7unm7J8z/8aNYiubehErAzQXzREzUt5w1sZjxPmWTXvJZ6o3jFqfSfQtFWCE8rkuTy/aRM/wwKy0SUqWOeHdpPV9KEYArRs2Mds2xQpOkiFcg4D2GWAj5M+QHabDadu1Unw9I4bzlZjA8p19TXoKkNfMaNMeqMdn0Q7xRs0bny1qdrqitA9UZrzWjCCBEyw+5TKt07v5MgyhJkKGm1eAID2oLw9ceRWxrIncNgXeum0MpKn6qq5cOzRDPy5ptwun9dq9WKLZyn8Oylzej+a2HROKj0/YTIGMs32FT5wpd91PASDe5s+DP6u0I//T6jsxeFZLwMyj+Vf4+nV+waFbQFeD6Mc02wyQnE1BdBdfleQ+uuLgOnLaxoZpxWhgm43ZiTwtYByQ0Hn27kMlZ5+/aNiFSm2XSmuRl7Qn7o4ctfTfjRH5j+uj3vWjpXpWwUfRlsnoBY1dxbBgM4koqpqAoSs6dwn//LoO1RIly/4R0P7e77SgX3f+ZD5uQKBiA9IW3ADy6XHjjctouWEtw9kb1gM35aFElfsPQKo9c2kYVcJbzMVy+LFp524mvsz6oHtz+ALKle9pQsD6bBCzcZIj5OvrhsnU/4N28p5TPobr5CEf9lSOiicMaqninM8kCbI8Ljg9xrMPLS2UzkwXb3d3DyMwMTMY=
+  - secure: dBf+ZDXVOIg4mxNImF8+NKGzofF9hrK08zRgfF93q4EcfFYrn6PEePM0BDTFLbzC1B3VM5jxGQvaHTCAnlvDiKR7/NI8ZwryGqRaGDHzZDsN/kezXR1GAq2Lua/RWqVzF+E2DyDVFQj9dO6y5IhoUXFDSXV5lwCFNcRdHMcoN/KQx/FDDCIzaec+nyk+5/i2Fs46/HqWBXXxg3gXL3dHJcMhLOILeCfopKt+mFwEerPNt64zs9EJ9PiaPFLQoWLn+b5dT5cyu31NbWN+E+c9w+Lo8xf7yt9fVNovadAVnPEfqRjufMcUh2cihhI1toNZ8MKBPhTtNiGKdedZIz/yiup+hWAk2USjf6JkPXENM+NuaTriRngtrm4M11UBi96xtyjawE8tVVfVRfTB1GzOiHbTozuK0slzK+KwtOCpe3rflUwy2mNr1o/HvHIegLWpXm0tmIO22kjr0XEi5VUkZaCvrV5cl60vVgYlQMHAdkWOy5rCXTMlJIn6UtEaRiT8sJS/d2yjN9C2/J8fHue+YTseY3qjwuzZfBtZfWc0tQPLdN1ElWRKCLUBK/9hInP3O0jOsZZ8vpwds9PcQzKZ9VvK01Ed1/vwtBSNmTIwsda2UcPdtvnH0mOEzhWIGO/KJ1vzpv5FpZQmH/2vo30qlSCwlQBh/BW/qTbr1VukWbQ=
+addons:
+  apt:
+    packages:
+      - ncftp
+install:
+- sudo apt-get --yes install snapd
+- sudo snap install hugo
+- rm -rf public || exit 0
+script:
+- "/snap/bin/hugo"
+after_success: ./ci/deploy.sh
