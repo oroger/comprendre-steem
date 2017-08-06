@@ -1,0 +1,12 @@
++++
+image = "/img/steem/hands.png"
+showonlyimage = false
+date = "2017-08-05T19:57:40+05:30"
+title = "L'etiquette"
+draft = false
+weight = 1
+steem = "fr/@roxane/le-guide-complet-de-l-etiquette-steemit-revision-2-0"
++++
+
+Le code de conduite du Steemien. 30 conseils pour vivre ensemble.
+<!--more-->

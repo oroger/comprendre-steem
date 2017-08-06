@@ -5,28 +5,36 @@
           {{ range (where .Data.Pages "Section" "articles") }}
               {{ if or (not (isset .Params "parent")) (eq .Params.parent false) }}
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                    <div class="box-masonry">
-                        {{ if and (isset .Params "image") .Params.image }}
-                          {{ if eq .Params.showonlyimage true }}
-                          <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay">
+                  <div class="box-masonry">
+                      {{ if and (isset .Params "image") .Params.image }}
+                        {{ if and (isset .Params "steem") .Params.steem }}
+                          <a href="https://steemit.com/{{ .Params.steem }}" title="" class="box-masonry-image with-hover-overlay external{{ if eq .Params.showonlyimage true }} with-hover-icon{{ end }}">
+                        {{ else }}
+                          {{ if and (isset .Params "ext_url") .Params.ext_url }}
+                          <a href="{{ .Params.ext_url }}" title="" class="box-masonry-image with-hover-overlay external{{ if eq .Params.showonlyimage true }} with-hover-icon{{ end }}">
                           {{ else }}
-                          <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                          <a href="{{ .Permalink }}" title="" class="box-masonry-image with-hover-overlay {{ if eq .Params.showonlyimage true }} with-hover-icon{{ end }}">
                           {{ end }}
+                        {{ end }}
                               <img src="{{ .Params.image }}" alt="" class="img-responsive">
                           </a>
-                        {{ end }}
-                        {{ if eq .Params.showonlyimage true }}
-                        <div class="box-masonry-hover-text-header">
+                      {{ end }}
+                      {{ if eq .Params.showonlyimage true }}
+                      <div class="box-masonry-hover-text-header">
+                      {{ else }}
+                      <div class="box-masonry-text">
+                      {{ end }}
+                        {{ if and (isset .Params "ext_url") .Params.ext_url }}
+                          <h4><a href="{{ .Params.ext_url }}">{{ .Title }}</a></h4>
                         {{ else }}
-                        <div class="box-masonry-text">
+                          <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
                         {{ end }}
-                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                            <div class="box-masonry-description">
-                                <p>{{ .Summary }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                          <div class="box-masonry-description">
+                              <p>{{ .Summary }}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
               {{ end }}
           {{ end }}
         </div>
