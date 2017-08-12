@@ -1,6 +1,6 @@
 +++
 date = "2017-06-24T19:41:01+05:30"
-title = "Bien Commencer sur Steem (video)"
+title = "Comprendre-Steem en vidéo"
 draft = false
 image = "/img/steem/steem.png"
 showonlyimage = false

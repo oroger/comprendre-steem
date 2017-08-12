@@ -4,7 +4,7 @@ image = "/img/steem/ecosystem.jpg"
 showonlyimage = false
 date = "2017-07-25T20:23:59"
 title = "Les applications"
-weight = 12
+weight = 7
 url = "/apps"
 +++
 

@@ -4,7 +4,7 @@ showonlyimage = false
 date = "2017-07-28T19:57:40"
 title = "Les platformes d'échange"
 draft = false
-weight = 7
+weight = 9
 url = "/exchange"
 +++
 
