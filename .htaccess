@@ -10,3 +10,7 @@
     Header set Cache-Control "max-age=2592000, public"
   </FilesMatch>
 </IfModule>
+
+<IfModule mod_headers.c>
+  Header set Connection keep-alive
+</IfModule>
