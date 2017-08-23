@@ -9,6 +9,6 @@ ext_url = "https://www.davidkevork.me/steem.php"
 author = "@davidk"
 +++
 
-Découvrez qui vous a flaggé.
+Découvrez qui vous a flaggé et sur quel article.
 
 <!--more-->

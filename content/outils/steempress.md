@@ -4,7 +4,7 @@ image = "/img/outils/steempress.png"
 showonlyimage = false
 date = "2017-07-27T20:22:08"
 title = "Steem Press"
-weight = 5
+weight = 15
 ext_url = "http://steem.press/"
 author = "@voorash"
 +++

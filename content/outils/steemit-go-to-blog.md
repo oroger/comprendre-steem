@@ -1,0 +1,14 @@
++++
+draft = false
+image = "/img/outils/steemit-go-to-blog.jpg"
+showonlyimage = false
+date = "2017-08-20T20:22:08+05:30"
+title = "Steemit GoToBlog"
+weight = 50
+steem = "fr/@corsica/steemit-5"
+author = "@bitcoiner"
++++
+
+Se rendre rapidement sur un blog.
+
+<!--more-->

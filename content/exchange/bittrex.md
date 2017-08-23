@@ -2,7 +2,7 @@
 image = "http://alfholsskoli.is/.btc/img/traderbit_for_bitfinex_by_bruno_heitz_1.jpg"
 showonlyimage = false
 date = "2017-07-28T19:57:40"
-title = "Bittrex"
+title = "Bittrex (Vidéos)"
 draft = false
 weight = 7
 url = "/exchange_bittrex"
