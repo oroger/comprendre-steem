@@ -5,4 +5,12 @@
   <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css)$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
+  # 1 Month for most static assets
+  <FilesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set Connection keep-alive
 </IfModule>
