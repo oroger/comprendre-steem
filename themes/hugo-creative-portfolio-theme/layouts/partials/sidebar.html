@@ -11,8 +11,17 @@
       {{ end }}
     </ul>
 
+    <p>En ce moment sur Steem...</p>
+
+    <ul class="sidebar-menu">
+      {{ $url := .Site.BaseURL }}
+      {{ range .Site.Params.steem.navlinks }}
+          <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+
     <p class="sidebar-p">
-      Retrouvez-nous sur avec le tag <strong>#fr</strong> <a href="https://www.steemit.com/created/fr">sur steemit.com</a> ou via <a href="https://steemit.chat/channel/fr">le chat</a>.
+      Retrouvez-nous sur le tag <strong>#fr</strong> <a href="https://www.steemit.com/created/fr">sur Steemit</a>, <a href="https://busy.org/created/fr">sur Busy</a> ou en chat via <a href="https://discord.gg/XFGr4jG">Discord</a>.
     </p>
 
     <div class="copyright">

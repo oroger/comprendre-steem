@@ -44,6 +44,19 @@ googleAnalytics = "UA-102255048-1"
   name = "À propos"
   url = "about/"
 
+
+  [[params.steem.navlinks]]
+  name = "Les derniers articles"
+  url = "latests/"
+
+  [[params.steem.navlinks]]
+  name = "Les articles les + récompensés"
+  url = "top10/"
+
+  [[params.steem.navlinks]]
+  name = "Les articles sélectionnés"
+  url = "francosteemvotes/"
+
   [params.social]
   facebook      = "full page or profile url in facebook"
   googleplus    = "full profile url in googleplus"
