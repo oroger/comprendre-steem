@@ -1,5 +1,5 @@
 +++
-image = "/img/steem/markdown.png"
+image = "https://steemitimages.com/DQmPdSeYbgaCTYoJ232ibEBEksjoW7U1zrPZ1JvPKyvhrSo/markdown.png"
 showonlyimage = false
 date = "2017-07-05T19:44:32+05:30"
 title = "Mise en forme des articles"

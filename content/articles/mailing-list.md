@@ -1,10 +1,10 @@
 +++
 draft = false
-image = "/img/comprendre-steem/newsletter.jpg"
+image = "https://steemitimages.com/DQmaptEq2vQ4MMXayYtvBQtxHjTAFbzkRYNcStk1zg1eHu1/newsletter.jpg"
 showonlyimage = false
 date = "2017-07-25T20:23:59"
 title = "Toujours au courant"
-weight = 20
+weight = 10
 url = "#"
 +++
 

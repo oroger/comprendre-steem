@@ -1,7 +1,7 @@
 +++
 showonlyimage = false
 draft = false
-image = "/img/steem/faq.jpg"
+image = "https://steemitimages.com/DQmXCp7dv6TgQeuc2SmaX9dBxguEyenHgrX6nEZkhCKPyZj/faq.jpg"
 date = "2017-07-24T21:15:00"
 title = "Les comptes utilisateur"
 weight = 102

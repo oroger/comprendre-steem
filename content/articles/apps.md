@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/steem/ecosystem.jpg"
+image = "https://steemitimages.com/DQmYDw1yGfYycwvHj9kLiLWr24p7fom7pRC9pEGatdFKTPj/ecosystem.jpg"
 showonlyimage = false
 date = "2017-07-25T20:23:59"
 title = "Les applications"

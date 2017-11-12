@@ -1,5 +1,5 @@
 +++
-image = "/img/steem/tools.png"
+image = "https://steemitimages.com/DQmdwDN4FogzHMRfZAp7KcC7pLCsFvi9TWVa5zfgYdveNjD/tools.png"
 showonlyimage = false
 date = "2016-11-05T19:57:40+05:30"
 title = "Les outils"

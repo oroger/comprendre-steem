@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/steem/bot.png"
+image = "https://steemitimages.com/DQmVZKnRKhmMkY5AoqxKzCqNcY6sWGQqkFkbtWVHn6wyBN8/bot.png"
 showonlyimage = false
 date = "2016-11-05T20:23:59+05:30"
 title = "Les bots"

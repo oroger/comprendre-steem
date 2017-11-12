@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/outils/steem-downvotes.jpg"
+image = "https://steemitimages.com/DQmPuwK6HFrzyG9pnfgCytYoAxRFkWJtJNp339T2RbQ6zkJ/steem-downvotes.jpg"
 showonlyimage = false
 date = "2017-07-26T20:55:00"
 title = "Steem Downvotes"

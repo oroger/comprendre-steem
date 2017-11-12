@@ -1,5 +1,5 @@
 +++
-image = "/img/steem/typography.jpg"
+image = "https://steemitimages.com/DQmdh1R2UBzgm8A1jLSTmkobbZVTrEQoMVSKBkrqvTxW77r/typography.jpg"
 showonlyimage = false
 draft = false
 date = "2017-07-18T19:53:42+05:30"

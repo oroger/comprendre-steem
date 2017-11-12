@@ -1,10 +1,10 @@
 +++
-image = "/img/steem/exchanges.png"
+image = "https://steemitimages.com/DQmWeV5miQenfXrueB6FLacwUhXpPSUn9sRkFhYcEML68S7/exchanges.png"
 showonlyimage = false
 date = "2017-07-28T19:57:40"
 title = "Les platformes d'échange"
 draft = false
-weight = 9
+weight = 19
 url = "/exchange"
 +++
 

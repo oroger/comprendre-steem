@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/outils/steemit-go-to-blog.jpg"
+image = "https://steemitimages.com/DQmeWgeMF7gFuKKaveo7SFjrzjVvMf2WnMpAMbfWJxxqVzJ/steemit-go-to-blog.jpg"
 showonlyimage = false
 date = "2017-08-20T20:22:08+05:30"
 title = "Steemit GoToBlog"

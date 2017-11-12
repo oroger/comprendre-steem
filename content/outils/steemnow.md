@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/outils/steemnow.jpg"
+image = "https://steemitimages.com/DQmaHh9f6EHHj1QQfc1K9CDLMLynTACPJsw3MrRZ9DBuy5C/steemnow.jpg"
 showonlyimage = false
 date = "2017-06-23T20:22:08+05:30"
 title = "SteemNow"

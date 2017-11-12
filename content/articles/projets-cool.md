@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/steem/be-cool.png"
+image = "https://steemitimages.com/DQmT2VnSY4RtK39usUKxbDmdiWAdU1PRkjrYkKxxvKpGJbG/be-cool.png"
 showonlyimage = false
 date = "2017-07-12T19:50:47+05:30"
 title = "Les projets cool sur Steem"

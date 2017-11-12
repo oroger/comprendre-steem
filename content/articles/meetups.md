@@ -1,6 +1,6 @@
 +++
 draft = true
-image = "/img/steem/steemfest.jpg"
+image = "https://steemitimages.com/DQmbYwDRST4Hk7tsVqxwerXFxaL5QEhxPfFNn1tF5TpaWxV/steemfest.jpg"
 date = "2017-07-01T19:56:17+05:30"
 title = "Rassemblements Steem"
 showonlyimage = false

@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/outils/steemwhales.png"
+image = "https://steemitimages.com/DQme63ahMaA1AJYY8jRaUofUvQa6CtfdsMk6kUng2sh17k8/steemwhales.png"
 showonlyimage = false
 date = "2017-06-23T20:22:08+05:30"
 title = "SteemWhales"

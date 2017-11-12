@@ -1,10 +1,10 @@
 +++
 draft = false
-image = "/img/outils/steemchart.png"
+image = "https://steemitimages.com/DQmXtTXWfA3MJ8ATECbTCxWPNSVzvVfwLtNVfqrETaNHtKR/steemchart.png"
 showonlyimage = false
 date = "2017-07-26T20:55:00"
 title = "Steemchart.net"
-weight = 10
+weight = 50
 ext_url = "https://steemchart.net/"
 author = "@jaka"
 +++

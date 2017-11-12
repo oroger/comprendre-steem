@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "/img/outils/steempress.png"
+image = "https://steemitimages.com/DQmeSb2bmtBSLE6rUf7QCEo3tYUAXRYY8LBRcAVLZd63GB1/steempress.png"
 showonlyimage = false
 date = "2017-07-27T20:22:08"
 title = "Steem Press"
