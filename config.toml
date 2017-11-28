@@ -1,4 +1,4 @@
-baseurl = "http://www.comprendre-steem.fr/"
+baseurl = "/" # "http://www.comprendre-steem.fr/"
 title = "Comprendre-Steem.fr"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
