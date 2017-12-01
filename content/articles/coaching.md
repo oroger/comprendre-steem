@@ -8,5 +8,5 @@ weight = 3
 steem = "fr/@roxane/comprendre-steem-lance-du-coaching-pour-les-minnows-fr"
 +++
 
-@roxane propose un coaching personalisé pour les nouveaux arrivants...
+@roxane propose un coaching personnalisé pour les nouveaux arrivants...
 <!--more-->
