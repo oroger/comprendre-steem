@@ -37,6 +37,10 @@ googleAnalytics = "UA-102255048-1"
   url = ""
 
   [[params.navlinks]]
+  name = "Le livre"
+  url = "livre/"
+
+  [[params.navlinks]]
   name = "Soumettre un article"
   url = "contact/"
 
