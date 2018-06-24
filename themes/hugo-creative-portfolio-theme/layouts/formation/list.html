@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>{{ .Title }}</h1>
+         {{ .Content }}
+         {{ with .Site.Params.email }}
+         <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
+           <div class="controls">
+            
+            <input type="hidden" name="_subject" value="Comprendre-Steem.Fr : Demande de coaching" />
+            <input type="hidden" name="_language" value="fr" />
+            <input type="hidden" name="_next" value="http://www.comprendre-steem.fr/formation/merci" />
+
+             <div class="form-group">
+               <label for="username">Nom d'utilisateur</label>
+               <input type="text" name="username" id="username" required="required" class="form-control" value="@" pattern="@[0-9A-Za-z-]{3,}">
+             </div>
+             <div class="form-group">
+               <label for="email">Une manière de te joindre directement (email, discord, ...)</label>
+               <input type="email" name="email" id="email" class="form-control" required="required" value="">
+             </div>
+             <div class="form-group">
+               <label for="message">En quelques mots, qu'attends-tu de ce coaching/formation ?</label>
+               <textarea rows="4" name="message" id="message" class="form-control"></textarea>
+             </div>
+
+            <script src="https://authedmine.com/lib/captcha.min.js" async></script>
+            <div class="coinhive-captcha" 
+                 data-hashes="1024" 
+                 data-key="iU35AZ18KjvQ85ANv3LvUKEuS5dbShk1" 
+                 data-disable-elements="input[type=submit]">
+              <em>Loading Captcha...<br>
+              If it doesn't load, please disable your Ad blocker</em>
+            </div>
+
+             <div>
+               <input type="submit" value="Soumettre" class="btn btn-ghost">
+             </div>
+           </div>
+         </form>
+         {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
